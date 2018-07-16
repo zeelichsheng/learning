@@ -46,3 +46,8 @@ func (n *Node) height() int {
 
 	return rightHeight + 1
 }
+
+type serializedNode struct {
+	Value int `json:"value"`
+	Index int `json:"index"`
+}
